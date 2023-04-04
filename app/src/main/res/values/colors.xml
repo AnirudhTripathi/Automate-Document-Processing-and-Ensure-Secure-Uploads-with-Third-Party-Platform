@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#822BFF</color>
+    <color name="purple_700">#2A1260</color>
+    <color name="teal_200">#E481A3</color>
+    <color name="teal_700">#FF3F80</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Home">#DC8449</color>
+    <color name="Profile">#DC8449</color>
+    <color name="Settings">#DC8449</color>
+</resources>

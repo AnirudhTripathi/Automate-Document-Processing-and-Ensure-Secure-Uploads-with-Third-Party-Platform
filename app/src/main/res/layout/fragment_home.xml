@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <TextView
+            android:id="@+id/display5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hello, Ashish"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            style="@style/TextAppearance.AppCompat.Inverse"
+            android:layout_marginTop="40dp"
+            android:textSize="35dp"
+
+            android:layout_marginStart="25dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/cam12"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:paddingVertical="50dp"
+            android:textSize="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:text="Camera"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="490dp"
+            android:background="@drawable/round_image_reg"
+            android:elevation="15dp"
+            />
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="66dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/cam_button"
+            android:src="@drawable/baseline_camera_24"
+            android:padding="10dp"
+            android:onClick="check"
+            android:elevation="25dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
